@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "Installing Package for Web Server"
+
+sudo apt update
+sudo apt install apache2 -y 
+sudo apt install ghostscript -y 
+sudo apt install libapache2-mod-php -y 
+sudo apt install php -y
+sudo apt install php-bcmath -y 
+sudo apt install php-curl  -y 
+sudo apt install php-imagick -y
+sudo apt install php-intl -y
+sudo apt install php-json -y
+sudo apt install php-mbstring -y 
+sudo apt install php-mysql  -y
+sudo apt install php-xml -y
+sudo apt install php-zip -y
